@@ -97,9 +97,11 @@ def show_match_img(source_img, query_img):
         #裁剪变换视角
         perspectvieM = cv2.getPerspectiveTransform(np.float32(dst2),pts)
         found = cv2.warpPerspective(img_raw_copy,perspectvieM,(w,h))
-        cv2.imshow("img_raw",img_raw_copy)
-        cv2.imshow("img_tran", found)
-    	cv2.waitKey(0)
+        temp_name = source_img.split('.')[0]
+        cv2.imwrite("./temp/"+temp_name,found)
+        # cv2.imshow("img_raw",img_raw_copy)
+        # cv2.imshow("img_tran", found)
+    	# cv2.waitKey(0)
         #return dst2 
 
     else:
@@ -159,12 +161,11 @@ def find_match_index(source, query_img):
 if __name__ == '__main__':
     excel_path = "./框架数据明细.xlsx"
     source = "./source/"
-    #img_list = read_excel(excel_path)
+    img_list = read_excel(excel_path)
     results=[]
-    query="./1.jpg"
-    # for query in img_list:
-    #     print(query)
-    result = best_match_img_path = find_match_index(source, query)
+    for query in img_list:
+        print(query)
+        result = best_match_img_path = find_match_index(source, query)
     if result:
         img = cv2.imread(query)
         img = cv2.resize(img, (224, 224))
