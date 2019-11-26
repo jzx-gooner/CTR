@@ -2,7 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69241691-9064-4e1e-86d7-1137973866c0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_ocr/ctpn/lib/utils/gpu_nms.so" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_ocr/ctpn/lib/utils/gpu_nms.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_ocr/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_ocr/demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_ocr/test_images/0318A20190823017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_ocr/test_result/0318A20190823017.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/find_you.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_you.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_descriptors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/0318A20190820003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/0318A20190820003.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/0318A20190823023.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/0318A20190823020.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/0318A20190823020.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/1.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/3.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/4.npy" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,14 +28,58 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/find_you.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1024">
-              <caret line="177" column="11" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="11" />
+            <state relative-caret-position="-216">
+              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
               <folding>
-                <element signature="e#53#77#0" expanded="true" />
+                <element signature="e#53#107#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/classification_model/utils.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/FlannBasedMatcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/DescriptorMatcher.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2380">
+              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chinese_ocr/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/generate_descriptors.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+              <folding>
+                <element signature="e#50#60#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,8 +88,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="7492" column="4" selection-start-line="7492" selection-start-column="4" selection-end-line="7492" selection-end-column="4" />
+            <state relative-caret-position="501">
+              <caret line="9028" column="4" selection-start-line="9028" selection-start-column="4" selection-end-line="9028" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -38,6 +99,14 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>W_DEFAULT</find>
+      <find>query_kp</find>
+      <find>FlannBasedMatcher</find>
+      <find>kp1</find>
+      <find>knnMatch</find>
+      <find>shape</find>
+      <find>matches</find>
+      <find>putt</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -46,6 +115,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/chinese_ocr/userdict.txt" />
+        <option value="$PROJECT_DIR$/generate_descriptors.py" />
         <option value="$PROJECT_DIR$/find_you.py" />
       </list>
     </option>
@@ -61,10 +132,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1312" />
-    <option name="y" value="34" />
-    <option name="width" value="1248" />
-    <option name="height" value="1416" />
+    <option name="x" value="1072" />
+    <option name="y" value="45" />
+    <option name="width" value="1531" />
+    <option name="height" value="1415" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -79,6 +150,22 @@
               <item name="CTR" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTR" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CTR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTR" type="462c0819:PsiDirectoryNode" />
+              <item name="chinese_ocr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTR" type="462c0819:PsiDirectoryNode" />
+              <item name="chinese_ocr" type="462c0819:PsiDirectoryNode" />
+              <item name="test_images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CTR" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CTR" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -86,7 +173,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../keras_yolo2" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -103,7 +192,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.find_you">
     <configuration name="find_you" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,9 +215,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="generate_descriptors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CTR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_descriptors.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.find_you" />
+        <item itemvalue="Python.generate_descriptors" />
       </list>
     </recent_temporary>
   </component>
@@ -143,58 +255,116 @@
       <option name="presentableId" value="Default" />
       <updated>1574650603878</updated>
       <workItem from="1574650607246" duration="620000" />
+      <workItem from="1574746463420" duration="56000" />
+      <workItem from="1574748915247" duration="3087000" />
+      <workItem from="1574752039552" duration="621000" />
+      <workItem from="1574765990125" duration="9230000" />
+      <workItem from="1574775380122" duration="2248000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="620000" />
+    <option name="totallyTimeSpent" value="15862000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="2497" height="1445" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24989791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1282156" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960477" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5212528" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CTR$find_you.coverage" NAME="find_you Coverage Results" MODIFIED="1574651025079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CTR$find_you.coverage" NAME="find_you Coverage Results" MODIFIED="1574777343339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CTR$generate_descriptors.coverage" NAME="generate_descriptors Coverage Results" MODIFIED="1574771788963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/test_images/0318A20190823017.jpg" />
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/userdict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/stupid_correct.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/find_you (copy).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="927">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classification_model/utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/FlannBasedMatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/DescriptorMatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2380">
+          <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generate_descriptors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#50#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="7492" column="4" selection-start-line="7492" selection-start-column="4" selection-end-line="7492" selection-end-column="4" />
+        <state relative-caret-position="501">
+          <caret line="9028" column="4" selection-start-line="9028" selection-start-column="4" selection-end-line="9028" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/find_you.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1024">
-          <caret line="177" column="11" selection-start-line="177" selection-start-column="6" selection-end-line="177" selection-end-column="11" />
+        <state relative-caret-position="-216">
+          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
           <folding>
-            <element signature="e#53#77#0" expanded="true" />
+            <element signature="e#53#107#0" expanded="true" />
           </folding>
         </state>
       </provider>
