@@ -23,7 +23,7 @@ if sys.getdefaultencoding() != 'gbk':
     reload(sys)
     sys.setdefaultencoding('gbk')
 
-USE_CAM_FOR_DEBUG = False
+USE_CAM_FOR_DEBUG = True
 NUM_CLASS = 2
 MIN_MATCH_COUNT = 70
 W_DEFAULT = 1024
