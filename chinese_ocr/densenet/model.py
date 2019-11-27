@@ -21,7 +21,9 @@ input = Input(shape=(32, None, 1), name='the_input')
 y_pred= densenet.dense_cnn(input, nclass)
 basemodel = Model(inputs=input, outputs=y_pred)
 
-modelPath = os.path.join(os.getcwd(), 'densenet/models/weights_densenet.h5')
+modelPath = (os.getcwd()+'/chinese_ocr/densenet/models/weights_densenet.h5')
+print("----------------------------")
+print(modelPath)
 if os.path.exists(modelPath):
     basemodel.load_weights(modelPath)
 

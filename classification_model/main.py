@@ -52,14 +52,14 @@ def str2bool(v):
 
 # Command line argspretrained_weights
 parser = argparse.ArgumentParser()
-parser.add_argument('--num_epochs', type=int, default=5000, help='Number of epochs to train for')
+parser.add_argument('--num_epochs', type=int, default=100, help='Number of epochs to train for')
 parser.add_argument('--mode', type=str, default="train", help='Select "train", or "predict" mode. \
     Note that for prediction mode you have to specify an image to run the model on.')
 parser.add_argument('--image', type=str, default=None, help='The image you want to predict on. Only valid in "predict" mode.')
 parser.add_argument('--continue_training', type=str2bool, default=False, help='Whether to continue training from a checkpoint')
 parser.add_argument('--dataset', type=str, default="dataset", help='Dataset you are using.')
-parser.add_argument('--resize_height', type=int, default=448, help='Height of cropped input image to network')
-parser.add_argument('--resize_width', type=int, default=448, help='Width of cropped input image to network')
+parser.add_argument('--resize_height', type=int, default=128, help='Height of cropped input image to network')
+parser.add_argument('--resize_width', type=int, default=128, help='Width of cropped input image to network')
 parser.add_argument('--alpha', type=float, default="1", help='the aplha of the model')
 parser.add_argument('--batch_size', type=int, default=8, help='Number of images in each batch')
 parser.add_argument('--dropout', type=float, default=1e-3, help='Dropout ratio')
@@ -85,7 +85,7 @@ TEST_DIR= args.dataset + "/test/"
 preprocessing_function = None
 base_model = None
 
-file_name_class_list=['none','blade_root','blade','blade_tip']
+file_name_class_list=['BM3',"BM7"]
 
 
 # Prepare the model

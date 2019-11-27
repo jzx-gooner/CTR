@@ -1,3 +1,5 @@
+#coding=utf-8
+#分类模型，进行预测，生成cam图，debug
 from keras.applications.vgg16 import VGG16
 from keras.applications.mobilenet import MobileNet
 from keras.applications.mobilenetv2 import MobileNetV2

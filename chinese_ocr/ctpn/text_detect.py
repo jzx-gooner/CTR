@@ -19,7 +19,7 @@ def resize_im(im, scale, max_scale=None):
 
 def load_tf_model():
     # load config file
-    cfg.TEST.checkpoints_path = './ctpn/checkpoints'
+    cfg.TEST.checkpoints_path = '/home/jzx/CTR/chinese_ocr/ctpn/checkpoints'
 
     # init session
     gpu_options = tf.GPUOptions(per_process_gpu_memory_fraction=1.0)

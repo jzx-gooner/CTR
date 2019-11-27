@@ -9,6 +9,9 @@ from glob import glob
 import cv2
 image_files = glob('../temp/*.*')
 
+import sys
+print(sys.path)
+
 
 if __name__ == '__main__':
     result_dir = './test_result'
@@ -19,7 +22,7 @@ if __name__ == '__main__':
     for image_file in sorted(image_files):
         im = Image.open(image_file).convert('RGB')
         width, height = im.size
-	new_size = (width,int(height*2))  
+	new_size = (width,int(height*1.2))  
         im = im.resize(new_size)   
         image = np.array(im)
      
