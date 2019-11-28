@@ -7,7 +7,7 @@ import numpy as np
 from PIL import Image
 from glob import glob
 import cv2
-image_files = glob('../temp/*.*')
+image_files = glob('../debug/temp/*.*')
 
 import sys
 print(sys.path)

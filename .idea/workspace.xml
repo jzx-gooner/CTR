@@ -3,23 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="69241691-9064-4e1e-86d7-1137973866c0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinese_ocr/ctpn/lib/utils/gpu_nms.so" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_ocr/ctpn/lib/utils/gpu_nms.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_ocr/ctpn/text_detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_ocr/ctpn/text_detect.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chinese_ocr/demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_ocr/demo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinese_ocr/test_images/0318A20190823017.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/chinese_ocr/test_result/0318A20190823017.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_ocr/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/chinese_ocr/ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chinese_ocr/userdict.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/find_you.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_you.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/generate_descriptors.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate_descriptors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/0318A20190820003.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/0318A20190820003.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/0318A20190823023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/0318A20190823020.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/0318A20190823020.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/1.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/3.npy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/4.npy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stupid_correct.py" beforeDir="false" afterPath="$PROJECT_DIR$/stupid_correct.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/crop_image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,58 +23,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chinese_ocr/ocr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ocr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="969">
+              <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stupid_correct.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find_you.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-216">
-              <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="6118">
+              <caret line="239" column="28" lean-forward="true" selection-start-line="239" selection-start-column="28" selection-end-line="239" selection-end-column="28" />
               <folding>
-                <element signature="e#53#107#0" expanded="true" />
+                <element signature="e#81#135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classification_model/utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/FlannBasedMatcher.py">
+        <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/text_detect.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="393">
+              <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/DescriptorMatcher.py">
+        <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/lib/text_connector/text_connect_cfg.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2380">
-              <caret line="100" column="8" selection-start-line="100" selection-start-column="8" selection-end-line="100" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chinese_ocr/demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/generate_descriptors.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-              <folding>
-                <element signature="e#50#60#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -88,13 +83,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="9028" column="4" selection-start-line="9028" selection-start-column="4" selection-end-line="9028" selection-end-column="4" />
+            <state relative-caret-position="282">
+              <caret line="9448" column="4" selection-start-line="9448" selection-start-column="4" selection-end-line="9448" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -117,25 +119,21 @@
       <list>
         <option value="$PROJECT_DIR$/chinese_ocr/userdict.txt" />
         <option value="$PROJECT_DIR$/generate_descriptors.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/find_you.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/CTR.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/text_ocr.py" />
+        <option value="$PROJECT_DIR$/stupid_correct.py" />
+        <option value="$PROJECT_DIR$/chinese_ocr/ocr.py" />
+        <option value="$PROJECT_DIR$/chinese_ocr/ctpn/text_detect.py" />
+        <option value="$PROJECT_DIR$/ocr.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1072" />
-    <option name="y" value="45" />
-    <option name="width" value="1531" />
-    <option name="height" value="1415" />
+    <option name="x" value="2008" />
+    <option name="y" value="24" />
+    <option name="width" value="1248" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -154,12 +152,6 @@
               <item name="CTR" type="b2602c69:ProjectViewProjectNode" />
               <item name="CTR" type="462c0819:PsiDirectoryNode" />
               <item name="chinese_ocr" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CTR" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CTR" type="462c0819:PsiDirectoryNode" />
-              <item name="chinese_ocr" type="462c0819:PsiDirectoryNode" />
-              <item name="test_images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CTR" type="b2602c69:ProjectViewProjectNode" />
@@ -192,7 +184,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.find_you">
+  <component name="RunManager" selected="Python.ocr">
     <configuration name="find_you" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTR" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +207,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="generate_descriptors" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ocr" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="CTR" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,7 +220,73 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/generate_descriptors.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ocr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="stupid_correct" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CTR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stupid_correct.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CTR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="text_ocr" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="CTR" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/text_ocr.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -239,8 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ocr" />
+        <item itemvalue="Python.stupid_correct" />
+        <item itemvalue="Python.text_ocr" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.find_you" />
-        <item itemvalue="Python.generate_descriptors" />
       </list>
     </recent_temporary>
   </component>
@@ -260,22 +321,24 @@
       <workItem from="1574752039552" duration="621000" />
       <workItem from="1574765990125" duration="9230000" />
       <workItem from="1574775380122" duration="2248000" />
+      <workItem from="1574863702744" duration="439000" />
+      <workItem from="1574926973136" duration="7239000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15862000" />
+    <option name="totallyTimeSpent" value="23540000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-4" width="2497" height="1445" extended-state="6" />
+    <frame x="1145" y="-4" width="2495" height="1444" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1282156" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12984891" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5212528" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5100671" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4720358" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -297,27 +360,17 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CTR$find_you.coverage" NAME="find_you Coverage Results" MODIFIED="1574777343339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CTR$test.coverage" NAME="test Coverage Results" MODIFIED="1574927055477" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CTR$ocr.coverage" NAME="ocr Coverage Results" MODIFIED="1574934163164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CTR$generate_descriptors.coverage" NAME="generate_descriptors Coverage Results" MODIFIED="1574771788963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CTR$text_ocr.coverage" NAME="text_ocr Coverage Results" MODIFIED="1574931581504" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CTR$stupid_correct.coverage" NAME="stupid_correct Coverage Results" MODIFIED="1574932649067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/chinese_ocr/test_images/0318A20190823017.jpg" />
-    <entry file="file://$PROJECT_DIR$/chinese_ocr/userdict.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chinese_ocr/stupid_correct.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/find_you (copy).py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="927">
-          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/userdict.txt" />
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/stupid_correct.py" />
+    <entry file="file://$PROJECT_DIR$/find_you (copy).py" />
     <entry file="file://$PROJECT_DIR$/classification_model/utils.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -335,6 +388,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/lib/utils/timer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chinese_ocr/demo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -342,30 +402,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/lib/fast_rcnn/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/lib/utils/blob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/lib/networks/network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/generate_descriptors.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="252">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
           <folding>
             <element signature="e#50#60#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/__init__.py">
+    <entry file="file://$PROJECT_DIR$/temp_ocr/crop_image.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/lib/text_connector/text_connect_cfg.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="9028" column="4" selection-start-line="9028" selection-start-column="4" selection-end-line="9028" selection-end-column="4" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/dist-packages/numpy/core/arrayprint.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="586">
+          <caret line="1503" selection-start-line="1503" selection-end-line="1503" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/find_you.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="18" column="59" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        <state relative-caret-position="6118">
+          <caret line="239" column="28" lean-forward="true" selection-start-line="239" selection-start-column="28" selection-end-line="239" selection-end-column="28" />
           <folding>
-            <element signature="e#53#107#0" expanded="true" />
+            <element signature="e#81#135#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text_ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding>
+            <element signature="e#24#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.PyCharm2019.1/system/python_stubs/-1247972723/cv2/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="9448" column="4" selection-start-line="9448" selection-start-column="4" selection-end-line="9448" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="83" column="44" selection-start-line="83" selection-start-column="44" selection-end-line="83" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chinese_ocr/ctpn/text_detect.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="87" lean-forward="true" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stupid_correct.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ocr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="44" column="31" lean-forward="true" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
         </state>
       </provider>
     </entry>

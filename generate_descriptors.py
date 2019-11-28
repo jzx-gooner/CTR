@@ -6,6 +6,7 @@ import numpy as np
 from os import walk
 from os.path import join
 
+#一般认为图片占比为1/2
 W_DEFAULT = int(1024*0.5)
 H_DEFAULT = 768
 

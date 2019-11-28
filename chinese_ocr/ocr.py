@@ -81,8 +81,8 @@ def model(img, adjust=False):
     """
     print((os.getcwd()+"/chinese_ocr/ctpn/ctpn/text.yml"))
     cfg_from_file(os.getcwd()+"/chinese_ocr/ctpn/ctpn/text.yml")
-    text_recs, img_framed, img = text_detect(img)
+    text_recs, img_framed, img,fx,fy = text_detect(img)
     text_recs = sort_box(text_recs)
     result = charRec(img, text_recs, adjust)
-    return result, img_framed
+    return result, img_framed,fx,fy
 

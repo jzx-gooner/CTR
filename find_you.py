@@ -101,10 +101,10 @@ def crop_img(source_img, query_img_path):
         perspectvieM = cv2.getPerspectiveTransform(np.float32(dst2), pts)
         found = cv2.warpPerspective(img_raw_copy, perspectvieM, (w, h))
         temp_name = query_img_path.split("/")[-1]
-        cv2.imwrite("./temp/" + temp_name, found)
-        cv2.imwrite("./temp_match/" + temp_name, img3)
+        cv2.imwrite("./debug/temp/" + temp_name, found)
+        cv2.imwrite("./debug/temp_match/" + temp_name, img3)
     else:
-        shutil.copy(query_img_path, "./temp/")
+        shutil.copy(query_img_path, "./debug/temp/")
 
 def find_match_index(source, query_img_path):
     query = cv2.imread(query_img_path, 0)
@@ -191,7 +191,7 @@ if __name__ == '__main__':
             solution1_results.append([query,best_match_img_name.split("/")[-1]])
         else:
             solution1_results.append([query,"UNCERTAIN"])
-            shutil.copy(query, "./temp/")
+            shutil.copy(query, "./debug/temp/")
 
         # solution 2: cnn
         if USE_CAM_FOR_DEBUG:
@@ -234,7 +234,7 @@ if __name__ == '__main__':
             now=time.time()
             #imgs = np.hstack([img,superimposed_img])
             cv2.putText(superimposed_img,class_name[0] , (10, 30), cv2.FONT_HERSHEY_COMPLEX, 1, (0, 0, 255), 2)
-            cv2.imwrite('./temp_cam/'+str(class_name[0])+"_"+query.split("/")[-1].split(".")[0]+'.jpg', superimposed_img)
+            cv2.imwrite('./debug/temp_cam/'+str(class_name[0])+"_"+query.split("/")[-1].split(".")[0]+'.jpg', superimposed_img)
 
 
     print(solution1_results)

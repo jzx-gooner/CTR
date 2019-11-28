@@ -84,12 +84,12 @@ def draw_boxes(img, boxes, scale):
         box_id += 1
 
     img = cv2.resize(img, None, None, fx=1.0/scale, fy=1.0/scale, interpolation=cv2.INTER_LINEAR)
-    return text_recs, img
+    return text_recs, img,1.0/scale,1.0/scale
 
 def text_detect(img):
     scores, boxes, img, scale = ctpn(img)
-    text_recs, img_drawed = draw_boxes(img, boxes, scale)
-    return text_recs, img_drawed, img
+    text_recs, img_drawed,fx,fy = draw_boxes(img, boxes, scale)
+    return text_recs, img_drawed, img,fx,fy
 
 if __name__ == '__main__':
     from PIL import Image
