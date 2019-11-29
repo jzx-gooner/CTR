@@ -19,7 +19,7 @@ python generate_descriptors.py
 ```
 
 
-#### 2. 运行find_you.py，输入链接所在的行列，eg（3,19）获取类别，裁剪校正图片
+#### 2. 运行find_you.py，输入链接所在的行列，eg（3,19）获取类别，裁剪校正图片,sift,cnn两种方法判断类别
 
 ``` Bash
 python find_you.py
@@ -27,4 +27,6 @@ python find_you.py
 
 #### 3. ocr
 
-#### 4. 校准
+``` Bash
+python text_ocr.py
+```
