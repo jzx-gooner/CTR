@@ -30,3 +30,11 @@ python find_you.py
 ``` Bash
 python text_ocr.py
 ```
+
+#### 4. 人工复核
+
+对于不确定的部分,使用人工复核脚本复核
+
+``` Bash
+python manual_review.py
+```
